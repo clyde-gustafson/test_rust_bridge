@@ -1,0 +1,13 @@
+[package]
+name = "rust_lib_test_rust_bridge"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "staticlib"]
+
+[dependencies]
+flutter_rust_bridge = "=2.0.0-dev.32"
+midir = "0.9.1"
+rodio = "0.17.3"
+hound = "3.5.1"
